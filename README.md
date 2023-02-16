@@ -39,7 +39,7 @@ No requirements.
 | <a name="input_stack"></a> [stack](#input\_stack) | Stack name | `string` | n/a | yes |
 | <a name="input_tfe_eks_workspace_name"></a> [tfe\_eks\_workspace\_name](#input\_tfe\_eks\_workspace\_name) | Name of Terraform Cloud eks workspace | `any` | n/a | yes |
 | <a name="input_tfe_organization"></a> [tfe\_organization](#input\_tfe\_organization) | Name of Terraform Cloud organization | `any` | n/a | yes |
-| <a name="input_tooling_namespace"></a> [tooling\_namespace](#input\_tooling\_namespace) | Namespace for Consul release | `string` | n/a | yes |
+| <a name="input_tooling_namespace"></a> [tooling\_namespace](#input\_tooling\_namespace) | Namespace for Consul release | `string` | `"tooling"` | no |
 
 ## Outputs
 
