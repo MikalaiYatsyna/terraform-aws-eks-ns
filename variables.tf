@@ -8,6 +8,7 @@ variable "stack" {
 variable "tooling_namespace" {
   type        = string
   description = "Namespace for Consul release"
+  default     = "tooling"
 }
 
 variable "domain" {
