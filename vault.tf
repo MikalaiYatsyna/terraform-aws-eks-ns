@@ -1,6 +1,6 @@
 module "vault" {
   source            = "app.terraform.io/logistic/vault/aws"
-  version           = "0.0.2-snapshot"
+  version           = "0.0.2"
   app_name          = local.vault_app_name
   consul_app_name   = local.consul_app_name
   domain            = var.domain
