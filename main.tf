@@ -1,4 +1,4 @@
-resource "kubernetes_namespace" "tooling_namespace" {
+resource "kubernetes_namespace" "namespace" {
   metadata {
     name = var.tooling_namespace
     labels = {
@@ -7,3 +7,4 @@ resource "kubernetes_namespace" "tooling_namespace" {
     }
   }
 }
+
