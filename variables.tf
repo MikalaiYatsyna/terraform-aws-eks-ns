@@ -3,8 +3,7 @@ variable "stack" {
   description = "Stack name"
 }
 
-variable "tooling_namespace" {
+variable "namespace_name" {
   type        = string
-  description = "Namespace for Consul release"
-  default     = "tooling"
+  description = "namespace name"
 }
