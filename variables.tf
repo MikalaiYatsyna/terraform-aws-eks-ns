@@ -1,5 +1,3 @@
-variable "region" {}
-
 variable "stack" {
   type        = string
   description = "Stack name"
@@ -22,10 +20,7 @@ variable "create_ingress" {
   default     = true
 }
 
-variable "tfe_organization" {
-  description = "Name of Terraform Cloud organization"
-}
-
-variable "tfe_eks_workspace_name" {
-  description = "Name of Terraform Cloud eks workspace"
+variable "oidc_provider_arn" {
+  type        = string
+  description = "OIDC provider arn"
 }

@@ -35,10 +35,8 @@ No requirements.
 |------|-------------|------|---------|:--------:|
 | <a name="input_create_ingress"></a> [create\_ingress](#input\_create\_ingress) | Flag to create ingress | `bool` | `true` | no |
 | <a name="input_domain"></a> [domain](#input\_domain) | Root application domain name | `string` | n/a | yes |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `any` | n/a | yes |
+| <a name="input_oidc_provider_arn"></a> [oidc\_provider\_arn](#input\_oidc\_provider\_arn) | OIDC provider arn | `string` | n/a | yes |
 | <a name="input_stack"></a> [stack](#input\_stack) | Stack name | `string` | n/a | yes |
-| <a name="input_tfe_eks_workspace_name"></a> [tfe\_eks\_workspace\_name](#input\_tfe\_eks\_workspace\_name) | Name of Terraform Cloud eks workspace | `any` | n/a | yes |
-| <a name="input_tfe_organization"></a> [tfe\_organization](#input\_tfe\_organization) | Name of Terraform Cloud organization | `any` | n/a | yes |
 | <a name="input_tooling_namespace"></a> [tooling\_namespace](#input\_tooling\_namespace) | Namespace for Consul release | `string` | `"tooling"` | no |
 
 ## Outputs
