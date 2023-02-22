@@ -17,8 +17,8 @@ No requirements.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_consul"></a> [consul](#module\_consul) | app.terraform.io/logistic/consul/aws | n/a |
-| <a name="module_vault"></a> [vault](#module\_vault) | app.terraform.io/logistic/vault/aws | n/a |
+| <a name="module_consul"></a> [consul](#module\_consul) | app.terraform.io/logistic/consul/aws | 0.0.2 |
+| <a name="module_vault"></a> [vault](#module\_vault) | app.terraform.io/logistic/vault/aws | 0.0.2 |
 
 ## Resources
 
