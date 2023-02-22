@@ -1,6 +1,6 @@
 resource "kubernetes_namespace" "namespace" {
   metadata {
-    name = var.tooling_namespace
+    name = var.namespace_name
     labels = {
       stack     = var.stack
       managedBy = "terraform"
