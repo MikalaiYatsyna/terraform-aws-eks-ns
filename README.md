@@ -36,5 +36,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_name"></a> [name](#output\_name) | Name of created namespacec |
+| <a name="output_name"></a> [name](#output\_name) | Name of created namespace |
 <!-- END_TF_DOCS -->
