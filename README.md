@@ -1,5 +1,5 @@
 ## Introduction
-Terraform module to create different tools required for applications
+Terraform module to create  Kubernetes namespace in existing EKS cluster
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -36,5 +36,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_name"></a> [name](#output\_name) | Name of created namespacec |
+| <a name="output_name"></a> [name](#output\_name) | Name of created namespace |
 <!-- END_TF_DOCS -->
