@@ -1,6 +1,6 @@
-variable "stack" {
+variable "cluster_name" {
   type        = string
-  description = "Stack name"
+  description = "Name of EKS cluster"
 }
 
 variable "namespace_name" {
