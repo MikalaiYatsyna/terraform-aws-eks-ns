@@ -29,8 +29,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | Name of EKS cluster | `string` | n/a | yes |
 | <a name="input_namespace_name"></a> [namespace\_name](#input\_namespace\_name) | namespace name | `string` | n/a | yes |
-| <a name="input_stack"></a> [stack](#input\_stack) | Stack name | `string` | n/a | yes |
 
 ## Outputs
 
