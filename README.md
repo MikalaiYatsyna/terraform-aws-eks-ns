@@ -7,7 +7,7 @@ Terraform module to create  Kubernetes namespace in existing EKS cluster
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.40.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.41.0 |
 | <a name="requirement_helm"></a> [helm](#requirement\_helm) | 2.12.1 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.18.0 |
 
@@ -15,7 +15,7 @@ Terraform module to create  Kubernetes namespace in existing EKS cluster
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.40.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.41.0 |
 | <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.18.0 |
 
 ## Modules
@@ -27,8 +27,8 @@ No modules.
 | Name | Type |
 |------|------|
 | [kubernetes_namespace.namespace](https://registry.terraform.io/providers/hashicorp/kubernetes/2.18.0/docs/resources/namespace) | resource |
-| [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/5.40.0/docs/data-sources/eks_cluster) | data source |
-| [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/5.40.0/docs/data-sources/eks_cluster_auth) | data source |
+| [aws_eks_cluster.eks_cluster](https://registry.terraform.io/providers/hashicorp/aws/5.41.0/docs/data-sources/eks_cluster) | data source |
+| [aws_eks_cluster_auth.eks_cluster_auth](https://registry.terraform.io/providers/hashicorp/aws/5.41.0/docs/data-sources/eks_cluster_auth) | data source |
 
 ## Inputs
 
