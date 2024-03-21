@@ -1,3 +1,8 @@
+![ci](https://github.com/MikalaiYatsyna/terraform-kubernetes-namespace/actions/workflows/ci.yml/badge.svg?branch=master)
+![lint](https://github.com/MikalaiYatsyna/terraform-kubernetes-namespace/actions/workflows/lint.yml/badge.svg?branch=master)
+![sec](https://github.com/MikalaiYatsyna/terraform-kubernetes-namespace/actions/workflows/tfsec.yml/badge.svg?branch=master)
+
+
 ## Introduction
 Terraform module to create Kubernetes namespace in existing cluster.
 
