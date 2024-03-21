@@ -1,5 +1,5 @@
 ## Introduction
-Terraform module to create  Kubernetes namespace in existing EKS cluster
+Terraform module to create Kubernetes namespace in existing cluster.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
