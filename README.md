@@ -7,6 +7,7 @@
 Terraform module to create Kubernetes namespace in existing cluster.
 
 <!-- BEGIN_TF_DOCS -->
+  
 ## Requirements
 
 | Name | Version |
@@ -14,23 +15,19 @@ Terraform module to create Kubernetes namespace in existing cluster.
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | 1.7.5 |
 | <a name="requirement_helm"></a> [helm](#requirement\_helm) | 2.12.1 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.27.0 |
-
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.27.0 |
-
 ## Modules
 
 No modules.
-
 ## Resources
 
 | Name | Type |
 |------|------|
 | [kubernetes_namespace.namespace](https://registry.terraform.io/providers/hashicorp/kubernetes/2.27.0/docs/resources/namespace) | resource |
-
 ## Inputs
 
 | Name | Description | Type | Default | Required |
@@ -40,7 +37,6 @@ No modules.
 | <a name="input_k8s_exec_args"></a> [k8s\_exec\_args](#input\_k8s\_exec\_args) | Args for Kubernetes provider exec plugin. Example command ['eks', 'get-token', '--cluster-name', '{clusterName}}'] | `list(string)` | n/a | yes |
 | <a name="input_k8s_exec_command"></a> [k8s\_exec\_command](#input\_k8s\_exec\_command) | Command name for Kubernetes provider exec plugin. Example - 'aws | `string` | n/a | yes |
 | <a name="input_namespace_name"></a> [namespace\_name](#input\_namespace\_name) | Name of the namespace to be created. | `string` | n/a | yes |
-
 ## Outputs
 
 | Name | Description |
